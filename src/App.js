@@ -17,9 +17,10 @@ function App() {
           <Route path='/gallery' element={<Gallery />} />
          
         </Routes>
+        <Footer />
       </BrowserRouter>
 
-      <Footer />
+     
 
     </div>
   );
