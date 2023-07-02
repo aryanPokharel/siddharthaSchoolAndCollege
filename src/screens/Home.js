@@ -37,13 +37,15 @@ function Home() {
       </div>
       <h2>Our Mantras For Academic Excellence</h2>
       <div>
-        <Grid
+        <Grid id= 'homeCardGrid'
           container
           spacing={{ xs: 2, md: 3 }}
           columns={{ xs: 4, sm: 8, md: 12 }}
         >
           {Array.from(Array(6)).map((_, index) => (
-            <Grid xs={2} sm={4} md={4} key={index}>
+            <Grid xs={2} sm={4} md={4} key={index}
+            
+            >
               {index == 0 ? (
                 <div className="card" id="mantraCard">
                   <div

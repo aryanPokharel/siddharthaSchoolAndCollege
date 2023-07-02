@@ -1,7 +1,22 @@
 #grid{
     margin-inline: 1rem;
 }
+#homeCardGrid{
+    display: flex;
+
+}
 #mantraCard{
     margin: 2rem;
     height: 50vh;
+}
+
+@media (max-width: 766px) {
+    #homeCardGrid{
+        flex-direction: column;
+
+    }
+    #mantraCard{
+        width: 60vw;
+
+    }
 }
