@@ -23,14 +23,14 @@ function Navbar() {
           {/* Collapsible wrapper */}
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             {/* Navbar brand */}
-            <a className="navbar-brand mt-2 mt-lg-0" href="#">
+            <Link className="navbar-brand mt-2 mt-lg-0" to="/">
               <img
-                src="https://mdbcdn.b-cdn.net/img/logo/mdb-transaprent-noshadows.webp"
+                src="https://www.pngfind.com/pngs/m/173-1739621_live-streaming-in-education-education-icon-in-circle.png"
                 height={15}
                 alt="MDB Logo"
                 loading="lazy"
               />
-            </a>
+            </Link>
             {/* Left links */}
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
