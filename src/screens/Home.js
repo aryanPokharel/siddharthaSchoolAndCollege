@@ -27,16 +27,17 @@ function Home() {
             <button className="btn btn-primary">Explore More</button>{" "}
           </Link>
         </div>
-        <div className="col-md-6"
-        style={{
-          height : "60vh"
-        }}>
-          <img
+        <div
+          className="col-md-6"
           style={{
-            objectFit: "cover"
-            ,
-            height : "100%"
+            height: "60vh",
           }}
+        >
+          <img
+            style={{
+              objectFit: "cover",
+              height: "100%",
+            }}
             src="https://wallpapercave.com/wp/wp3738676.jpg"
             alt="School Building"
             className="img-fluid rounded"
@@ -45,15 +46,14 @@ function Home() {
       </div>
       <h2>Our Mantras For Academic Excellence</h2>
       <div>
-        <Grid id= 'homeCardGrid'
+        <Grid
+          id="homeCardGrid"
           container
           spacing={{ xs: 2, md: 3 }}
           columns={{ xs: 4, sm: 8, md: 12 }}
         >
           {Array.from(Array(6)).map((_, index) => (
-            <Grid xs={2} sm={4} md={4} key={index}
-            
-            >
+            <Grid xs={2} sm={4} md={4} key={index}>
               {index == 0 ? (
                 <div className="card" id="mantraCard">
                   <div
@@ -219,14 +219,17 @@ function Home() {
         </Grid>
       </div>
       <div className="row">
-        <div className="col-md-6" style={{
-                    
-                        height: "60vh",
-                      }}>
+        <div
+          className="col-md-6"
+          style={{
+            height: "60vh",
+          }}
+        >
           <img
             src="https://knowledge.wharton.upenn.edu/wp-content/uploads/2008/08/objective-of-education-is-learning-feature-900x612.jpg"
             alt="School Building"
-            className="img-fluid rounded" style={{
+            className="img-fluid rounded"
+            style={{
               objectFit: "cover",
               width: "100%",
               height: "100%",
