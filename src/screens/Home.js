@@ -258,7 +258,9 @@ function Home() {
             deliver engaging lessons, foster critical thinking skills, and
             cultivate a love for learning.
           </p>
-          <button className="btn btn-primary">Explore More</button>
+          <Link to="/about">
+            <button className="btn btn-primary">Explore More</button>{" "}
+          </Link>
         </div>
       </div>
       FAQs
