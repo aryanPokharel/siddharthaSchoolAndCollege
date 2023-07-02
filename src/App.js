@@ -9,7 +9,9 @@ import Gallery from './screens/Gallery';
 import Contact from './screens/Contact';
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{
+      backgroundColor : "aliceblue"
+    }}>
       <BrowserRouter>
       <Navbar />
         <Routes>

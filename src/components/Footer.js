@@ -4,6 +4,11 @@ function Footer() {
   return (
     <>
       <footer className="text-center text-lg-start bg-light text-muted">
+        <div style={{
+          height : "1vh"
+        }}>
+
+        </div>
         <section className="">
           <div className="container text-center text-md-start mt-5">
             <div className="row mt-3">
