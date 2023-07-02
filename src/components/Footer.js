@@ -9,8 +9,8 @@ function Footer() {
             <div className="row mt-3">
               <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                 <h6 className="text-uppercase fw-bold mb-4">
-                  <i className="fas fa-gem me-3" />
-                  Siddhartha School & College
+                  <i className="fa-sharp fa-solid fa-school" /> Siddhartha
+                  School & College
                 </h6>
                 <p>
                   We are comitted to reaching academic excellence through
@@ -21,22 +21,38 @@ function Footer() {
               <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
                 <h6 className="text-uppercase fw-bold mb-4">Social Sites</h6>
                 <p>
-                  <Link to="https://www.facebook.com/" target="new" className="text-reset">
+                  <Link
+                    to="https://www.facebook.com/"
+                    target="new"
+                    className="text-reset"
+                  >
                     <i className="fab fa-facebook-f" /> Facebook
                   </Link>
                 </p>
                 <p>
-                  <Link to="https://www.instagram.com/" target="new" className="text-reset">
+                  <Link
+                    to="https://www.instagram.com/"
+                    target="new"
+                    className="text-reset"
+                  >
                     <i className="fab fa-instagram" /> Instagram
                   </Link>
                 </p>
                 <p>
-                  <Link to="https://twitter.com/" target="new" className="text-reset">
+                  <Link
+                    to="https://twitter.com/"
+                    target="new"
+                    className="text-reset"
+                  >
                     <i className="fab fa-twitter" /> Twitter
                   </Link>
                 </p>
                 <p>
-                  <Link to="https://www.tiktok.com/en/" target="new" className="text-reset">
+                  <Link
+                    to="https://www.tiktok.com/en/"
+                    target="new"
+                    className="text-reset"
+                  >
                     <i className="fab fa-tiktok" /> TikTok
                   </Link>
                 </p>
