@@ -26,7 +26,7 @@ function Navbar() {
             <Link className="navbar-brand mt-2 mt-lg-0" to="/">
               <img
                 src="https://www.pngfind.com/pngs/m/173-1739621_live-streaming-in-education-education-icon-in-circle.png"
-                height={15}
+                height={30}
                 alt="MDB Logo"
                 loading="lazy"
               />
