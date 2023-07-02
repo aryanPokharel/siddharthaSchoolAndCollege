@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 function Home() {
   return (
-    <div className="container mt-5" >
+    <div className="container mt-5">
       <div className="row">
         <div
           className="col-md-6"
@@ -224,12 +224,19 @@ function Home() {
             justifyContent: "center",
           }}
         >
-          <h1 className="mb-4">Welcome to Siddhartha School and College</h1>
+          <h1 className="mb-4">Our Commitment To Quality Education</h1>
           <p>
-            At Siddhartha School and College, we strive to instill values such
-            as integrity, respect, and responsibility in our students. We foster
-            a supportive and inclusive community where every student feels
-            valued and supported in their educational journey.
+            At our school, we are deeply committed to providing a high-quality
+            education that empowers our students for success. Our dedication to
+            quality education stems from our belief that every student deserves
+            an exceptional learning experience.
+          </p>
+          <p>
+            We strive to create a nurturing and inclusive environment where
+            students can thrive academically, socially, and emotionally. Our
+            passionate and highly qualified teachers go above and beyond to
+            deliver engaging lessons, foster critical thinking skills, and
+            cultivate a love for learning.
           </p>
           <button className="btn btn-primary">Explore More</button>
         </div>
