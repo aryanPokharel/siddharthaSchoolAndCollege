@@ -27,9 +27,17 @@ function Home() {
             <button className="btn btn-primary">Explore More</button>{" "}
           </Link>
         </div>
-        <div className="col-md-6">
+        <div className="col-md-6"
+        style={{
+          height : "60vh"
+        }}>
           <img
-            src="https://via.placeholder.com/500"
+          style={{
+            objectFit: "cover"
+            ,
+            height : "100%"
+          }}
+            src="https://wallpapercave.com/wp/wp3738676.jpg"
             alt="School Building"
             className="img-fluid rounded"
           />
@@ -211,11 +219,18 @@ function Home() {
         </Grid>
       </div>
       <div className="row">
-        <div className="col-md-6">
+        <div className="col-md-6" style={{
+                    
+                        height: "60vh",
+                      }}>
           <img
-            src="https://via.placeholder.com/500"
+            src="https://knowledge.wharton.upenn.edu/wp-content/uploads/2008/08/objective-of-education-is-learning-feature-900x612.jpg"
             alt="School Building"
-            className="img-fluid rounded"
+            className="img-fluid rounded" style={{
+              objectFit: "cover",
+              width: "100%",
+              height: "100%",
+            }}
           />
         </div>
         <div
