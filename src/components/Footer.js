@@ -72,7 +72,7 @@ function Footer() {
                   <i className="fas fa-envelope me-3" />
                   gmail@gmail.com
                 </p>
-                <p>
+                <p style={{display: "flex", flexDirection: "row", justifyContent: "space-between"}}>
                   <i className="fa-solid fa-tty" />  <h2> </h2> 051 591129
                 </p>
                 <p>
