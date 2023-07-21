@@ -74,7 +74,7 @@ function Footer() {
                 </p>
                 {/* <p style={{display: "flex",justifyContent: "space-between"}}> */}
                 <p>
-                  <i className=" fas fa-phone me-3" />  <h2> </h2> 051 591129
+                  <i className=" fas fa-phone me-3" /> 051 591129
                 </p>
                 <p>
                   <i className="fas fa-phone me-3" /> 9845159677
