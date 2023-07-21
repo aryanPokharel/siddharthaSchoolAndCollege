@@ -73,10 +73,10 @@ function Footer() {
                   gmail@gmail.com
                 </p>
                 <p>
-                  <i className="fas fa-phone me-3" /> + 051 591129
+                  <i className="fa-solid fa-tty" /> 051 591129
                 </p>
                 <p>
-                  <i className="fas fa-print me-3" /> + 9845159677
+                  <i className="fas fa-phone me-3" /> 9845159677
                 </p>
               </div>
             </div>
